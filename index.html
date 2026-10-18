@@ -1,1 +1,327 @@
-Nexus portfolio 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070a12">
+  <meta name="description" content="Caleb's personal portfolio. Ideas into reality. Code into innovation. Explore AI, Android apps and creative technology.">
+  <title>Caleb | NEXUS®</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="noise"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Caleb home">
+      <span class="brand-mark">C<span>.</span></span>
+      <span class="brand-name">CALEB<span class="registered">®</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#work" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" id="themeToggle" aria-label="Switch theme" title="Switch theme">
+        <span id="themeIcon">☼</span>
+      </button>
+      <a href="#contact" class="header-cta">Let's talk <span>↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="status-line reveal">
+          <span class="status-dot"></span>
+          <span>INDEPENDENT CREATOR · DIGITAL BUILDER</span>
+        </div>
+
+        <p class="eyebrow reveal">HEY THERE, I'M</p>
+        <h1 class="hero-title reveal">Caleb<span class="title-period">.</span></h1>
+        <h2 class="hero-tagline reveal">
+          Ideas into reality.<br>
+          <span>Code into innovation.</span>
+        </h2>
+
+        <p class="hero-description reveal">
+          I turn ambitious ideas into digital experiences, exploring AI,
+          Android development and creative technology one project at a time.
+        </p>
+
+        <div class="hero-buttons reveal">
+          <a class="button button-primary" href="#work">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="#about">Get to know me <span>↓</span></a>
+        </div>
+
+        <div class="hero-meta reveal">
+          <span><i class="meta-line"></i> BUILDING WHAT'S NEXT</span>
+          <span class="mono">Nº 001 / PORTFOLIO</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-orbit orbit-a"></div>
+        <div class="portrait-orbit orbit-b"></div>
+        <div class="portrait-orbit orbit-c"></div>
+
+        <div class="portrait-shell">
+          <div class="portrait-glow"></div>
+          <img src="caleb.jpg" class="portrait-image" alt="Portrait of Caleb"
+               onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')">
+          <div class="portrait-placeholder">
+            <span class="placeholder-monogram">C<span>.</span></span>
+            <span class="placeholder-label">YOUR PORTRAIT GOES HERE</span>
+            <span class="placeholder-hint">Add caleb.jpg to this folder</span>
+          </div>
+          <div class="portrait-overlay"></div>
+          <div class="portrait-corner corner-tl"></div>
+          <div class="portrait-corner corner-br"></div>
+        </div>
+
+        <div class="floating-label label-top">
+          <span class="mini-signal"></span>
+          <span>CREATIVE MINDSET</span>
+        </div>
+        <div class="floating-label label-bottom">
+          <span class="label-index">01</span>
+          <span>IDEAS → REALITY</span>
+        </div>
+        <div class="visual-coordinate coordinate-top">06° / 26°</div>
+        <div class="visual-coordinate coordinate-bottom">DESIGNED TO BUILD</div>
+      </div>
+
+      <div class="hero-scroll">
+        <span class="scroll-line"></span>
+        <span>SCROLL TO EXPLORE</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest">
+      <div class="ticker-track">
+        <span>ARTIFICIAL INTELLIGENCE</span><b>✳</b>
+        <span>ANDROID DEVELOPMENT</span><b>✳</b>
+        <span>CREATIVE TECHNOLOGY</span><b>✳</b>
+        <span>INTERACTIVE DESIGN</span><b>✳</b>
+        <span>ARTIFICIAL INTELLIGENCE</span><b>✳</b>
+        <span>ANDROID DEVELOPMENT</span><b>✳</b>
+        <span>CREATIVE TECHNOLOGY</span><b>✳</b>
+        <span>INTERACTIVE DESIGN</span><b>✳</b>
+      </div>
+    </section>
+
+    <section class="section-wrap work-section section-space" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-number">01</span> THE SHOWCASE</p>
+          <h2 class="section-title">Selected <span>work.</span></h2>
+        </div>
+        <p class="section-intro">A growing collection of ideas, experiments and digital products in progress.</p>
+      </div>
+
+      <div class="work-toolbar reveal">
+        <div class="filter-list" id="filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-category="all">All work <span>04</span></button>
+          <button class="filter-btn" data-category="android">Android</button>
+          <button class="filter-btn" data-category="ai">AI & intelligence</button>
+          <button class="filter-btn" data-category="creative">Creative</button>
+        </div>
+        <span class="project-count mono" id="projectCount">SHOWING 04 PROJECTS</span>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card project-breeze reveal" data-category="ai android" data-project="breeze" tabindex="0">
+          <div class="project-art breeze-art">
+            <div class="art-top"><span>01 / AI SYSTEM</span><span class="art-live"><i></i> IN DEVELOPMENT</span></div>
+            <div class="neural-core">
+              <div class="neural-ring ring-one"></div>
+              <div class="neural-ring ring-two"></div>
+              <div class="neural-ring ring-three"></div>
+              <div class="neural-node node-one"></div>
+              <div class="neural-node node-two"></div>
+              <div class="neural-node node-three"></div>
+              <div class="neural-node node-four"></div>
+              <div class="core-letter">B</div>
+            </div>
+            <div class="art-bottom"><span>WHISPEROS CORE</span><span>01.01</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>B.R.E.E.Z.E</h3><span class="project-arrow">↗</span></div>
+            <p>A personal AI assistant concept designed to bring voice, intelligence and practical device control together.</p>
+            <div class="tag-list"><span>AI</span><span>Android</span><span>Voice</span></div>
+            <button class="text-link project-open" data-open="breeze">Explore project <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="project-card project-vyro reveal" data-category="android creative" data-project="vyro" tabindex="0">
+          <div class="project-art vyro-art">
+            <div class="art-top"><span>02 / ENTERTAINMENT</span><span class="art-number">V-02</span></div>
+            <div class="film-window">
+              <div class="film-sun"></div>
+              <div class="film-mountain mountain-one"></div>
+              <div class="film-mountain mountain-two"></div>
+              <div class="film-horizon"></div>
+              <div class="film-title">VYRO<span>+</span></div>
+              <div class="film-caption">YOUR NEXT STORY STARTS HERE</div>
+            </div>
+            <div class="art-bottom"><span>DISCOVER · SAVE · EXPLORE</span><span>02.02</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>VYRO</h3><span class="project-arrow">↗</span></div>
+            <p>A cinematic movie discovery experience with searchable titles, curated collections and a personal watchlist.</p>
+            <div class="tag-list"><span>Kotlin</span><span>Compose</span><span>TMDB</span></div>
+            <button class="text-link project-open" data-open="vyro">Explore project <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="project-card project-lumina reveal" data-category="creative ai" data-project="lumina" tabindex="0">
+          <div class="project-art lumina-art">
+            <div class="art-top"><span>03 / CREATIVE LAB</span><span class="art-number">L-03</span></div>
+            <div class="lumina-canvas">
+              <div class="lumina-sun"></div>
+              <div class="lumina-shape shape-one"></div>
+              <div class="lumina-shape shape-two"></div>
+              <div class="lumina-shape shape-three"></div>
+              <div class="lumina-orbit"></div>
+              <span class="canvas-caption">IMAGINE<br>WHAT'S POSSIBLE.</span>
+            </div>
+            <div class="art-bottom"><span>GENERATE · CREATE</span><span>03.03</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>LUMINA</h3><span class="project-arrow">↗</span></div>
+            <p>A creative application concept focused on making AI-assisted visual creation feel simple and accessible.</p>
+            <div class="tag-list"><span>Creative AI</span><span>Images</span><span>Design</span></div>
+            <button class="text-link project-open" data-open="lumina">Explore project <span>↗</span></button>
+          </div>
+        </article>
+
+        <article class="project-card project-ruby reveal" data-category="ai android" data-project="ruby" tabindex="0">
+          <div class="project-art ruby-art">
+            <div class="art-top"><span>04 / PERSONAL AI</span><span class="art-number">R-04</span></div>
+            <div class="ruby-interface">
+              <div class="ruby-orb"><span>R</span></div>
+              <div class="ruby-wave wave-one"></div>
+              <div class="ruby-wave wave-two"></div>
+              <div class="ruby-wave wave-three"></div>
+              <div class="ruby-command"><span class="command-dot"></span> READY FOR INPUT</div>
+            </div>
+            <div class="art-bottom"><span>THINK · RESPOND · ASSIST</span><span>04.04</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><h3>RUBY</h3><span class="project-arrow">↗</span></div>
+            <p>An AI assistant project exploring conversational interaction, useful actions and a more personal interface.</p>
+            <div class="tag-list"><span>AI</span><span>Automation</span><span>Assistant</span></div>
+            <button class="text-link project-open" data-open="ruby">Explore project <span>↗</span></button>
+          </div>
+        </article>
+      </div>
+      <p class="work-note reveal"><span>✳</span> Project visuals are original CSS illustrations. Some features and projects remain in development.</p>
+    </section>
+
+    <section class="about-section section-space" id="about">
+      <div class="section-wrap about-layout">
+        <div class="about-main reveal">
+          <p class="eyebrow"><span class="eyebrow-number">02</span> THE PERSON BEHIND THE PIXELS</p>
+          <h2 class="section-title">Curiosity is<br>my <span>starting point.</span></h2>
+          <p class="about-lead">I'm Caleb, a self-driven creator exploring what happens when imagination meets technology.</p>
+          <p class="about-body">From experimenting with Android applications to building AI-powered ideas, I enjoy learning by making things. Every project is a chance to understand a little more, solve a real problem, and turn a rough concept into something people can experience.</p>
+          <a href="#contact" class="button button-primary">Have an idea? Let's talk <span>↗</span></a>
+        </div>
+
+        <div class="about-side reveal">
+          <div class="principle-card">
+            <span class="principle-index">01 / THINK</span>
+            <div class="principle-symbol">⌘</div>
+            <h3>Start with a question.</h3>
+            <p>Understand the problem before rushing into a solution.</p>
+          </div>
+          <div class="principle-card">
+            <span class="principle-index">02 / BUILD</span>
+            <div class="principle-symbol">⟡</div>
+            <h3>Make the idea real.</h3>
+            <p>Experiment, test, learn and improve with every iteration.</p>
+          </div>
+          <div class="principle-card">
+            <span class="principle-index">03 / GROW</span>
+            <div class="principle-symbol">↗</div>
+            <h3>Keep moving forward.</h3>
+            <p>Stay curious and let each project teach the next lesson.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap capabilities-section section-space">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-number">03</span> THE TOOLKIT</p>
+          <h2 class="section-title">Learning by <span>building.</span></h2>
+        </div>
+        <p class="section-intro">The tools and disciplines I use while turning ideas into working prototypes.</p>
+      </div>
+      <div class="capability-grid reveal">
+        <div class="capability-item"><span class="capability-icon">⌘</span><div><h3>Android development</h3><p>Kotlin · Jetpack Compose · Mobile UI</p></div><span class="capability-index">01</span></div>
+        <div class="capability-item"><span class="capability-icon">✳</span><div><h3>Artificial intelligence</h3><p>AI APIs · Voice assistants · Automation</p></div><span class="capability-index">02</span></div>
+        <div class="capability-item"><span class="capability-icon">◈</span><div><h3>Web experiences</h3><p>HTML · CSS · JavaScript</p></div><span class="capability-index">03</span></div>
+        <div class="capability-item"><span class="capability-icon">✦</span><div><h3>Creative technology</h3><p>Concept design · Prototyping · Experimentation</p></div><span class="capability-index">04</span></div>
+      </div>
+      <p class="capability-disclaimer">This toolkit reflects my areas of exploration and ongoing learning.</p>
+    </section>
+
+    <section class="contact-section section-space" id="contact">
+      <div class="section-wrap contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-number">04</span> OPEN CHANNEL</p>
+          <h2 class="section-title">Let's build<br>something <span>meaningful.</span></h2>
+          <p>Got a project idea, a collaboration in mind, or just want to talk about technology? Send me a message.</p>
+          <div class="contact-status"><span class="status-dot"></span> OPEN TO IDEAS AND COLLABORATION</div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-heading"><span>MESSAGE TERMINAL</span><span class="mono">SECURE CHANNEL / 01</span></div>
+          <label for="contactName">Your name</label>
+          <input id="contactName" name="name" type="text" placeholder="What should I call you?" required>
+          <label for="contactEmail">Your email</label>
+          <input id="contactEmail" name="email" type="email" placeholder="you@example.com" required>
+          <label for="contactMessage">Your message</label>
+          <textarea id="contactMessage" name="message" rows="4" placeholder="Tell me what's on your mind..." required></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare message <span>↗</span></button>
+          <p class="form-note" id="formNote">Your email app will open to send the message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">C<span>.</span></span><span class="brand-name">CALEB<span class="registered">®</span></span></a>
+      <p>Ideas into reality. Code into innovation.</p>
+      <a class="back-top" href="#top">BACK TO TOP ↑</a>
+      <span class="footer-copy">© <span id="currentYear"></span>MADE WITH CURIOSITY.</span>
+    </div>
+  </footer>
+
+  <dialog id="projectDialog" class="project-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button>
+    <div class="dialog-kicker" id="dialogKicker">PROJECT / 01</div>
+    <h2 id="dialogTitle">Project title</h2>
+    <p id="dialogDescription"></p>
+    <div class="dialog-tags" id="dialogTags"></div>
+    <div class="dialog-footer"><span>CALEB / PROJECT NOTES</span><span>IDEAS → REALITY</span></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
